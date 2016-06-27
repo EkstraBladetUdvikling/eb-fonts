@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install ebudvikling/eb-fonts
+npm install ebudvikling/eb-fonts --save
 ```
 
 ## Usage
