@@ -1,0 +1,27 @@
+$eb-fonts-xsmall: (
+
+    'desktop': (
+        'xsmall': 12px
+    ),
+
+    'smartphone': (
+        'xsmall': 10px
+    ),
+
+    'tablet': (
+        'xsmall': 12px
+      )
+
+);
+
+$eb-fs-xsmall: eb-device-get($eb-fonts-xsmall, 'xsmall');
+
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-xsmall: $eb-fs-xsmall;
+  }
+}
+
+.fs-xsmall {
+  font-size: $eb-fs-xsmall;
+}

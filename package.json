@@ -2,6 +2,18 @@
   "name": "eb-fonts",
   "version": "1.0.0",
   "description": "EB fonts for SCSS and CSS",
+  "scripts": {
+    "dist": "npm run desktop && npm run smartphone && npm run tablet",
+    "desktop": "npm run desktop-classes && npm run desktop-cssvars",
+    "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --sourcemap=none",
+    "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --sourcemap=none",
+    "smartphone": "npm run smartphone-classes && npm run smartphone-cssvars",
+    "smartphone-classes": "sass src/all-smartphone.scss dist/eb-fonts-smartphone.css --sourcemap=none",
+    "smartphone-cssvars": "sass src/all-cssvars-smartphone.scss dist/eb-fontvars-smartphone.css --sourcemap=none",
+    "tablet": "npm run tablet-classes && npm run tablet-cssvars",
+    "tablet-classes": "sass src/all-tablet.scss dist/eb-fonts-tablet.css --sourcemap=none",
+    "tablet-cssvars": "sass src/all-cssvars-tablet.scss dist/eb-fontvars-tablet.css --sourcemap=none"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebudvikling/eb-fonts.git"
@@ -11,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ebudvikling/eb-fonts/issues"
   },
-  "homepage": "https://github.com/ebudvikling/eb-fonts#readme"
+  "homepage": "https://github.com/ebudvikling/eb-fonts#readme",
+  "devDependencies": {
+    "stylelint-config-eb": "^1.0.7"
+  }
 }

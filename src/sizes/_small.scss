@@ -1,0 +1,27 @@
+$eb-fonts-small: (
+
+    'desktop': (
+        'small': 14px,
+    ),
+
+    'smartphone': (
+        'small': 12px,
+    ),
+
+    'tablet': (
+        'small': 14px,
+    ),
+
+);
+
+$eb-fs-small: eb-device-get($eb-fonts-small, 'small');
+
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-small: $eb-fs-small;
+  }
+}
+
+.fs-small {
+  font-size: $eb-fs-small;
+}

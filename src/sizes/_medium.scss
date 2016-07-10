@@ -1,0 +1,27 @@
+$eb-fonts-medium: (
+
+    'desktop': (
+        'medium': 16px,
+    ),
+
+    'smartphone': (
+        'medium': 15px,
+    ),
+
+    'tablet': (
+        'medium': 16px,
+    ),
+
+);
+
+$eb-fs-medium: eb-device-get($eb-fonts-medium, 'medium');
+
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-medium: $eb-fs-medium;
+  }
+}
+
+.fs-medium {
+  font-size: $eb-fs-medium;
+}

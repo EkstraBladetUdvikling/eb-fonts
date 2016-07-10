@@ -1,0 +1,27 @@
+$eb-fonts-large: (
+
+    'desktop': (
+      'large': 18px,
+    ),
+
+    'smartphone': (
+      'large': 15px,
+    ),
+
+    'tablet': (
+      'large': 18px,
+    ),
+
+);
+
+$eb-fs-large: eb-device-get($eb-fonts-large, 'large');
+
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-large: $eb-fs-large;
+  }
+}
+
+.fs-large {
+  font-size: $eb-fs-large;
+}

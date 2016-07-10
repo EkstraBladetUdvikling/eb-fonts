@@ -1,0 +1,23 @@
+$eb-fonts-cssvars: false !default;
+$eb-fonts-classes: false !default;
+
+@import "../functions/all";
+@import "xxsmall";
+@import "xsmall";
+@import "small";
+@import "medium";
+@import "large";
+@import "xlarge";
+@import "xxlarge";
+@import "xxxlarge";
+//
+// $eb-fonts-sizes: map-collect(
+//     $eb-fonts-xxsmall,
+//     $eb-fonts-xsmall,
+//     $eb-fonts-small,
+//     $eb-fonts-medium,
+//     $eb-fonts-large,
+//     $eb-fonts-xlarge,
+//     $eb-fonts-xxlarge,
+//     $eb-fonts-xxxlarge
+// );

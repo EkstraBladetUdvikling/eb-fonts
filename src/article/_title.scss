@@ -1,0 +1,8 @@
+@import "../sizes/xxxlarge";
+
+$eb-fs-title: $eb-fs-xxxlarge;
+
+.fs-title {
+  font-size: $eb-fs-title;
+  line-height: normal;
+}

@@ -1,0 +1,13 @@
+/*
+* @pagename mixins
+* @name device-get
+* @description Returns value from device divided maps. Extends map-deep-get
+* @usage device-get($map, $key)
+*/
+@function eb-device-get($map, $key, $device-to-get: $device) {
+    @if map-has-key($map, $device-to-get) == false {
+        $device-to-get: 'smartphone';
+    }
+
+    @return map-deep-get($map, $device-to-get, $key);
+}

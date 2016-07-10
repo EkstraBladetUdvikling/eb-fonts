@@ -1,0 +1,16 @@
+$eb-fonts-title: (
+
+    'desktop': (
+        'fontsize'          : '50px'
+    ),
+
+    'smartphone': (
+        'fontsize'          : '36px'
+    )
+
+);
+
+.art-title {
+  font-size: var(--fs-title);
+  text-indent: -.01em;
+}

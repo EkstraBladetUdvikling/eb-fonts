@@ -1,0 +1,26 @@
+$eb-fonts-xlarge: (
+
+    'desktop': (
+        'xlarge': 20px
+    ),
+
+    'smartphone': (
+        'xlarge': 20px
+    ),
+
+    'tablet': (
+        'xlarge': 20px
+    )
+);
+
+$eb-fs-xlarge: eb-device-get($eb-fonts-xlarge, 'xlarge');
+
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-xlarge: $eb-fs-xlarge;
+  }
+}
+
+.fs-xlarge {
+  font-size: $eb-fs-xlarge;
+}
