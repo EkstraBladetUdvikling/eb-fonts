@@ -2,4 +2,12 @@ $eb-fonts-cssvars: false !default;
 $eb-fonts-classes: false !default;
 
 @import "../functions/all";
+
+@import "ads";
+@import "timestamp";
+@import "caption";
+@import "showmore";
+@import "bodytext";
+@import "subtitle";
+@import "quote";
 @import "title";

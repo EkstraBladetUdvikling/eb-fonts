@@ -1,0 +1,10 @@
+@import "../sizes/medium";
+
+$eb-fs-showmore: $eb-fs-medium;
+
+@if ($eb-fonts-classes == true) {
+    .fs-showmore {
+      font-size: $eb-fs-showmore;
+      line-height: normal;
+    }
+}

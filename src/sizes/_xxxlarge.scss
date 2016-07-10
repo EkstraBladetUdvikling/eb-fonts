@@ -22,6 +22,8 @@ $eb-fs-xxxlarge: eb-device-get($eb-fonts-xxxlarge, 'xxxlarge');
   }
 }
 
-.fs-xxxlarge {
-  font-size: $eb-fs-xxxlarge;
+@if ($eb-fonts-classes == true) {
+    .fs-xxxlarge {
+      font-size: $eb-fs-xxxlarge;
+    }
 }

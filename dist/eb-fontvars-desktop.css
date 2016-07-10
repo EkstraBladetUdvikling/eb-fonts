@@ -11,53 +11,53 @@
 * @usage device-get($map, $key)
 */
 :root {
-  --fs-xxsmall: 7px; }
+  --fs-xxsmall: 10px; }
 
 :root {
-  --fs-xsmall: 10px; }
+  --fs-xsmall: 12px; }
 
 :root {
-  --fs-small: 12px; }
+  --fs-small: 14px; }
 
 :root {
-  --fs-medium: 15px; }
+  --fs-medium: 16px; }
 
 :root {
-  --fs-large: 15px; }
+  --fs-large: 18px; }
 
 :root {
   --fs-xlarge: 20px; }
 
 :root {
-  --fs-xxlarge: 20px; }
+  --fs-xxlarge: 30px; }
 
 :root {
-  --fs-xxxlarge: 36px; }
+  --fs-xxxlarge: 50px; }
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 16px; }
 
 h1 {
-  font-size: 36px; }
+  font-size: 50px; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 30px; }
 
 h3 {
   font-size: 20px; }
 
 h4 {
-  font-size: 15px; }
+  font-size: 18px; }
 
 h5 {
-  font-size: 15px; }
+  font-size: 18px; }
 
 h6 {
-  font-size: 15px; }
+  font-size: 16px; }
 
 p {
-  font-size: 15px; }
+  font-size: 16px; }
 
 /*
 * @pagename mixins
@@ -66,25 +66,25 @@ p {
 * @usage device-get($map, $key)
 */
 :root {
-  --fs-xxsmall: 7px; }
+  --fs-xxsmall: 10px; }
 
 :root {
-  --fs-xsmall: 10px; }
+  --fs-xsmall: 12px; }
 
 :root {
-  --fs-small: 12px; }
+  --fs-small: 14px; }
 
 :root {
-  --fs-medium: 15px; }
+  --fs-medium: 16px; }
 
 :root {
-  --fs-large: 15px; }
+  --fs-large: 18px; }
 
 :root {
   --fs-xlarge: 20px; }
 
 :root {
-  --fs-xxlarge: 20px; }
+  --fs-xxlarge: 30px; }
 
 :root {
-  --fs-xxxlarge: 36px; }
+  --fs-xxxlarge: 50px; }

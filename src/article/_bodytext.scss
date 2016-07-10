@@ -1,0 +1,10 @@
+@import "../sizes/large";
+
+$eb-fs-bodytext: $eb-fs-large;
+
+@if ($eb-fonts-classes == true) {
+    .fs-bodytext {
+      font-size: $eb-fs-bodytext;
+      line-height: normal;
+    }
+}

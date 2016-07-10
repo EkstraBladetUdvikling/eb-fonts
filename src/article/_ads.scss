@@ -1,0 +1,10 @@
+@import "../sizes/xxsmall";
+
+$eb-fs-ads: $eb-fs-xxsmall;
+
+@if ($eb-fonts-classes == true) {
+    .fs-ads {
+      font-size: $eb-fs-ads;
+      line-height: normal;
+    }
+}

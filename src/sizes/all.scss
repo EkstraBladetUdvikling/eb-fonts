@@ -10,14 +10,14 @@ $eb-fonts-classes: false !default;
 @import "xlarge";
 @import "xxlarge";
 @import "xxxlarge";
-//
-// $eb-fonts-sizes: map-collect(
-//     $eb-fonts-xxsmall,
-//     $eb-fonts-xsmall,
-//     $eb-fonts-small,
-//     $eb-fonts-medium,
-//     $eb-fonts-large,
-//     $eb-fonts-xlarge,
-//     $eb-fonts-xxlarge,
-//     $eb-fonts-xxxlarge
-// );
+
+$eb-fonts-sizes: map-collect(
+    $eb-fonts-xxsmall,
+    $eb-fonts-xsmall,
+    $eb-fonts-small,
+    $eb-fonts-medium,
+    $eb-fonts-large,
+    $eb-fonts-xlarge,
+    $eb-fonts-xxlarge,
+    $eb-fonts-xxxlarge
+);

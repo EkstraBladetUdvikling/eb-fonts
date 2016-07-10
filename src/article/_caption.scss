@@ -1,0 +1,10 @@
+@import "../sizes/small";
+
+$eb-fs-caption: $eb-fs-small;
+
+@if ($eb-fonts-classes == true) {
+    .fs-caption {
+      font-size: $eb-fs-caption;
+      line-height: normal;
+    }
+}

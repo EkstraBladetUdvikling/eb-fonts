@@ -1,0 +1,10 @@
+@import "../sizes/xlarge";
+
+$eb-fs-subtitle: $eb-fs-xlarge;
+
+@if ($eb-fonts-classes == true) {
+    .fs-subtitle {
+      font-size: $eb-fs-subtitle;
+      line-height: normal;
+    }
+}

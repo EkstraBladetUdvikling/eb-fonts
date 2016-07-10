@@ -11,53 +11,53 @@
 * @usage device-get($map, $key)
 */
 .fs-xxsmall {
-  font-size: 7px; }
-
-.fs-xsmall {
   font-size: 10px; }
 
-.fs-small {
+.fs-xsmall {
   font-size: 12px; }
 
+.fs-small {
+  font-size: 14px; }
+
 .fs-medium {
-  font-size: 15px; }
+  font-size: 16px; }
 
 .fs-large {
-  font-size: 15px; }
+  font-size: 18px; }
 
 .fs-xlarge {
   font-size: 20px; }
 
 .fs-xxlarge {
-  font-size: 20px; }
+  font-size: 30px; }
 
 .fs-xxxlarge {
-  font-size: 36px; }
+  font-size: 50px; }
 
 body {
   font-family: Arial, sans-serif;
-  font-size: 15px; }
+  font-size: 16px; }
 
 h1 {
-  font-size: 36px; }
+  font-size: 50px; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 30px; }
 
 h3 {
   font-size: 20px; }
 
 h4 {
-  font-size: 15px; }
+  font-size: 18px; }
 
 h5 {
-  font-size: 15px; }
+  font-size: 18px; }
 
 h6 {
-  font-size: 15px; }
+  font-size: 16px; }
 
 p {
-  font-size: 15px; }
+  font-size: 16px; }
 
 /*
 * @pagename mixins
@@ -66,38 +66,38 @@ p {
 * @usage device-get($map, $key)
 */
 .fs-xxsmall {
-  font-size: 7px; }
-
-.fs-ads {
-  font-size: 7px;
-  line-height: normal; }
-
-.fs-xsmall {
   font-size: 10px; }
 
-.fs-timestamp {
+.fs-ads {
   font-size: 10px;
   line-height: normal; }
 
-.fs-small {
+.fs-xsmall {
   font-size: 12px; }
 
-.fs-caption {
+.fs-timestamp {
   font-size: 12px;
   line-height: normal; }
 
+.fs-small {
+  font-size: 14px; }
+
+.fs-caption {
+  font-size: 14px;
+  line-height: normal; }
+
 .fs-medium {
-  font-size: 15px; }
+  font-size: 16px; }
 
 .fs-showmore {
-  font-size: 15px;
+  font-size: 16px;
   line-height: normal; }
 
 .fs-large {
-  font-size: 15px; }
+  font-size: 18px; }
 
 .fs-bodytext {
-  font-size: 15px;
+  font-size: 18px;
   line-height: normal; }
 
 .fs-xlarge {
@@ -108,15 +108,15 @@ p {
   line-height: normal; }
 
 .fs-xxlarge {
-  font-size: 20px; }
+  font-size: 30px; }
 
 .fs-quote {
-  font-size: 20px;
+  font-size: 30px;
   line-height: normal; }
 
 .fs-xxxlarge {
-  font-size: 36px; }
+  font-size: 50px; }
 
 .fs-title {
-  font-size: 36px;
+  font-size: 50px;
   line-height: normal; }

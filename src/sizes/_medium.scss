@@ -22,6 +22,8 @@ $eb-fs-medium: eb-device-get($eb-fonts-medium, 'medium');
   }
 }
 
-.fs-medium {
-  font-size: $eb-fs-medium;
+@if ($eb-fonts-classes == true) {
+    .fs-medium {
+      font-size: $eb-fs-medium;
+    }
 }

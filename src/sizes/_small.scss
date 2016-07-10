@@ -22,6 +22,8 @@ $eb-fs-small: eb-device-get($eb-fonts-small, 'small');
   }
 }
 
-.fs-small {
-  font-size: $eb-fs-small;
+@if ($eb-fonts-classes == true) {
+    .fs-small {
+      font-size: $eb-fs-small;
+    }
 }

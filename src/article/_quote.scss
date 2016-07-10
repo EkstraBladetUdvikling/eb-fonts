@@ -1,0 +1,10 @@
+@import "../sizes/xxlarge";
+
+$eb-fs-quote: $eb-fs-xxlarge;
+
+@if ($eb-fonts-classes == true) {
+    .fs-quote {
+      font-size: $eb-fs-quote;
+      line-height: normal;
+    }
+}
