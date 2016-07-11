@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "description": "EB fonts for SCSS and CSS",
   "scripts": {
-    "dist": "npm run desktop && npm run smartphone && npm run tablet",
-    "desktop": "npm run desktop-classes && npm run desktop-cssvars",
-    "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --sourcemap=none",
-    "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --sourcemap=none",
-    "smartphone": "npm run smartphone-classes && npm run smartphone-cssvars",
-    "smartphone-classes": "sass src/all-smartphone.scss dist/eb-fonts-smartphone.css --sourcemap=none",
-    "smartphone-cssvars": "sass src/all-cssvars-smartphone.scss dist/eb-fontvars-smartphone.css --sourcemap=none",
-    "tablet": "npm run tablet-classes && npm run tablet-cssvars",
-    "tablet-classes": "sass src/all-tablet.scss dist/eb-fonts-tablet.css --sourcemap=none",
-    "tablet-cssvars": "sass src/all-cssvars-tablet.scss dist/eb-fontvars-tablet.css --sourcemap=none"
+    "dist": "npm run lint && npm run desktop && npm run smartphone && npm run tablet",
+    "lint": "stylelint src/*.scss --syntax=scss",
+    "desktop": "npm run desktop-classes && npm run desktop-cssvars && npm run desktop-titillium",
+    "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --sourcemap=none -t compressed",
+    "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --sourcemap=none -t compressed",
+    "desktop-titillium": "sass src/all-titillium-desktop.scss dist/eb-titillium-desktop.css --sourcemap=none -t compressed",
+    "smartphone": "npm run smartphone-classes && npm run smartphone-cssvars && npm run smartphone-titillium",
+    "smartphone-classes": "sass src/all-smartphone.scss dist/eb-fonts-smartphone.css --sourcemap=none -t compressed",
+    "smartphone-cssvars": "sass src/all-cssvars-smartphone.scss dist/eb-fontvars-smartphone.css --sourcemap=none -t compressed",
+    "smartphone-titillium": "sass src/all-titillium-smartphone.scss dist/eb-titillium-smartphone.css --sourcemap=none -t compressed",
+    "tablet": "npm run tablet-classes && npm run tablet-cssvars && npm run tablet-titillium",
+    "tablet-classes": "sass src/all-tablet.scss dist/eb-fonts-tablet.css --sourcemap=none -t compressed",
+    "tablet-cssvars": "sass src/all-cssvars-tablet.scss dist/eb-fontvars-tablet.css --sourcemap=none -t compressed",
+    "tablet-titillium": "sass src/all-titillium-tablet.scss dist/eb-titillium-tablet.css --sourcemap=none -t compressed"
   },
   "repository": {
     "type": "git",
@@ -25,6 +29,10 @@
   },
   "homepage": "https://github.com/ebudvikling/eb-fonts#readme",
   "devDependencies": {
+    "stylelint": "^6.9.0",
     "stylelint-config-eb": "^1.0.7"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-eb"
   }
 }

@@ -2,10 +2,13 @@
 
 $eb-fs-timestamp: $eb-fs-xsmall;
 
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-timestamp: $eb-fs-timestamp;
+  }
+}
 
-@if ($eb-fonts-classes == true) {
-    .fs-timestamp {
-      font-size: $eb-fs-timestamp;
-      line-height: normal;
-    }
+.fs-timestamp {
+  font-size: $eb-fs-timestamp;
+  line-height: normal;
 }

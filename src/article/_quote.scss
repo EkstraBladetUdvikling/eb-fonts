@@ -2,9 +2,13 @@
 
 $eb-fs-quote: $eb-fs-xxlarge;
 
-@if ($eb-fonts-classes == true) {
-    .fs-quote {
-      font-size: $eb-fs-quote;
-      line-height: normal;
-    }
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-quote: $eb-fs-quote;
+  }
+}
+
+.fs-quote {
+  font-size: $eb-fs-quote;
+  line-height: normal;
 }

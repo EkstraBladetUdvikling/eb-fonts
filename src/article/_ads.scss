@@ -2,9 +2,13 @@
 
 $eb-fs-ads: $eb-fs-xxsmall;
 
-@if ($eb-fonts-classes == true) {
-    .fs-ads {
-      font-size: $eb-fs-ads;
-      line-height: normal;
-    }
+@if ($eb-fonts-cssvars == true) {
+  :root {
+    --fs-ads: $eb-fs-ads;
+  }
+}
+
+.fs-ads {
+  font-size: $eb-fs-ads;
+  line-height: normal;
 }

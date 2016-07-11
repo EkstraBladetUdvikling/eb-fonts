@@ -2,9 +2,13 @@
 
 $eb-fs-subtitle: $eb-fs-xlarge;
 
-@if ($eb-fonts-classes == true) {
-    .fs-subtitle {
-      font-size: $eb-fs-subtitle;
-      line-height: normal;
-    }
+@if ($eb-fonts-cssvars == true) {
+  :root {
+    --fs-subtitle: $eb-fs-subtitle;
+  }
+}
+
+.fs-subtitle {
+  font-size: $eb-fs-subtitle;
+  line-height: normal;
 }

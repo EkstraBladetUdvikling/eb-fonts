@@ -2,9 +2,13 @@
 
 $eb-fs-bodytext: $eb-fs-large;
 
-@if ($eb-fonts-classes == true) {
-    .fs-bodytext {
-      font-size: $eb-fs-bodytext;
-      line-height: normal;
-    }
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-bodytext: $eb-fs-bodytext;
+  }
+}
+
+.fs-bodytext {
+  font-size: $eb-fs-bodytext;
+  line-height: normal;
 }

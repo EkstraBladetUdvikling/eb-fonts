@@ -2,9 +2,13 @@
 
 $eb-fs-title: $eb-fs-xxxlarge;
 
-@if ($eb-fonts-classes == true) {
-    .fs-title {
-      font-size: $eb-fs-title;
-      line-height: normal;
-    }
+@if ($eb-fonts-cssvars == true) {
+    :root {
+      --fs-title: $eb-fs-title;
+  }
+}
+
+.fs-title {
+  font-size: $eb-fs-title;
+  line-height: normal;
 }
