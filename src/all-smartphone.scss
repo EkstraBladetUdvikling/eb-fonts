@@ -1,4 +1,5 @@
 $device: 'smartphone';
-$eb-fonts-classes: true;
+$eb-fonts-classes: true !default;
+$eb-fonts-cssvars: true !default;
 
 @import "all";

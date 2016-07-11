@@ -1,3 +1,9 @@
-html, button, input, select, textarea {
-  font-family: Arial, sans-serif;
+$eb-fonts-main: Arial, sans-serif;
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: $eb-fonts-main;
 }

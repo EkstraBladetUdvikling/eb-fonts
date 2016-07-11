@@ -3,8 +3,8 @@
 $eb-fs-timestamp: $eb-fs-xsmall;
 
 @if ($eb-fonts-cssvars == true) {
-    :root {
-      --fs-timestamp: $eb-fs-timestamp;
+  :root {
+    --fs-timestamp: $eb-fs-timestamp;
   }
 }
 
