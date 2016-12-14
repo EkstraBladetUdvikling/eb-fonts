@@ -46,8 +46,10 @@
     <script>
       (function (doc) {
         var loc = location.search.split('=')[1]
-        var link = doc.querySelector('link')
-        link.href = '../dist/eb-fonts-' + loc + '.css'
+        if (typeof loc !== 'undefined') {
+          var link = doc.querySelector('link')
+          link.href = '../dist/eb-fonts-' + loc + '.css'
+        }
       }(document))
     </script>
   </body>
