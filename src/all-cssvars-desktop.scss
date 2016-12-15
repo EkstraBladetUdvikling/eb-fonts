@@ -1,4 +1,4 @@
-$device: 'desktop';
+$device: 'desktop' !default;
 $eb-fonts-cssvars: true;
 
 @import "all";
