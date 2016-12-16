@@ -8,7 +8,9 @@ $eb-fs-quote: $eb-fs-xxlarge;
   }
 }
 
-.fs-quote {
-  font-size: $eb-fs-quote;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-quote {
+    font-size: $eb-fs-quote;
+    line-height: normal;
+  }
 }

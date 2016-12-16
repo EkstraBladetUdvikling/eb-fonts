@@ -8,7 +8,9 @@ $eb-fs-showmore: $eb-fs-medium;
   }
 }
 
-.fs-showmore {
-  font-size: $eb-fs-showmore;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-showmore {
+    font-size: $eb-fs-showmore;
+    line-height: normal;
+  }
 }

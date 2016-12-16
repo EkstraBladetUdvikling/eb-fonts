@@ -8,7 +8,9 @@ $eb-fs-title: $eb-fs-xxxlarge;
   }
 }
 
-.fs-title {
-  font-size: $eb-fs-title;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-title {
+    font-size: $eb-fs-title;
+    line-height: normal;
+  }
 }

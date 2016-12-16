@@ -8,7 +8,9 @@ $eb-fs-bodytext: $eb-fs-large;
   }
 }
 
-.fs-bodytext {
-  font-size: $eb-fs-bodytext;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-bodytext {
+    font-size: $eb-fs-bodytext;
+    line-height: normal;
+  }
 }

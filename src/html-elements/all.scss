@@ -4,34 +4,36 @@
 @import "../functions/all";
 @import "../sizes/all";
 
-body {
-    font-size: $eb-fs-medium;
-}
+@if ($eb-fonts-classes == true) {
+  body {
+      font-size: $eb-fs-medium;
+  }
 
-h1 {
-    font-size: $eb-fs-xxxlarge;
-}
+  h1 {
+      font-size: $eb-fs-xxxlarge;
+  }
 
-h2 {
-    font-size: $eb-fs-xxlarge;
-}
+  h2 {
+      font-size: $eb-fs-xxlarge;
+  }
 
-h3 {
-    font-size: $eb-fs-xlarge;
-}
+  h3 {
+      font-size: $eb-fs-xlarge;
+  }
 
-h4 {
-    font-size: $eb-fs-large;
-}
+  h4 {
+      font-size: $eb-fs-large;
+  }
 
-h5 {
-    font-size: $eb-fs-large;
-}
+  h5 {
+      font-size: $eb-fs-large;
+  }
 
-h6 {
-    font-size: $eb-fs-medium;
-}
+  h6 {
+      font-size: $eb-fs-medium;
+  }
 
-p {
-    font-size: $eb-fs-medium;
+  p {
+      font-size: $eb-fs-medium;
+  }
 }
