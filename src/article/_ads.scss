@@ -8,7 +8,9 @@ $eb-fs-ads: $eb-fs-xxsmall;
   }
 }
 
-.fs-ads {
-  font-size: $eb-fs-ads;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-ads {
+    font-size: $eb-fs-ads;
+    line-height: normal;
+  }
 }

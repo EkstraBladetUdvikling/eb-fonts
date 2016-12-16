@@ -8,7 +8,9 @@ $eb-fs-subtitle: $eb-fs-xlarge;
   }
 }
 
-.fs-subtitle {
-  font-size: $eb-fs-subtitle;
-  line-height: normal;
+@if ($eb-fonts-classes == true) {
+  .fs-subtitle {
+    font-size: $eb-fs-subtitle;
+    line-height: normal;
+  }
 }
