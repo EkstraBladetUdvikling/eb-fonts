@@ -44,8 +44,8 @@ from xxsmall to xxxlarge
 Size name | eb size mapping | font-size
 ----------|-----------------|----------
 xxsmall | ads | 7px
-xsmall | caption | 10px
-small | timestamp | 12px
+xsmall | timestamp | 10px
+small | caption | 12px
 medium | showmore | 15px
 large | bodytext | 15px
 xlarge | subtitle | 20px
@@ -58,8 +58,8 @@ xxxlarge | title | 36px
 Size name | eb size mapping | font-size
 ----------|-----------------|----------
 xxsmall | ads | 10px
-xsmall | caption | 12px
-small | timestamp | 14px
+xsmall | timestamp | 12px
+small | caption | 14px
 medium | showmore | 16px
 large | bodytext | 18px
 xlarge | subtitle | 20px
