@@ -4,7 +4,7 @@ $eb-fs-ads: $eb-fs-xxsmall;
 
 @if ($eb-fonts-cssvars == true) {
   :root {
-    --fs-ads: $eb-fs-ads;
+    --fs-ads: #{$eb-fs-ads};
   }
 }
 

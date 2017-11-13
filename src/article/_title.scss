@@ -4,7 +4,7 @@ $eb-fs-title: $eb-fs-xxxlarge;
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-title: $eb-fs-title;
+      --fs-title: #{$eb-fs-title};
   }
 }
 

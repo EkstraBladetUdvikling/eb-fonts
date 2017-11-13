@@ -17,13 +17,13 @@ $eb-fonts-large: (
 $eb-fs-large: eb-device-get($eb-fonts-large, 'large');
 
 @if ($eb-fonts-cssvars == true) {
-    :root {
-      --fs-large: $eb-fs-large;
+  :root {
+    --fs-large: #{$eb-fs-large};
   }
 }
 
 @if ($eb-fonts-classes == true) {
-    .fs-large {
-      font-size: $eb-fs-large;
-    }
+  .fs-large {
+    font-size: $eb-fs-large;
+  }
 }
