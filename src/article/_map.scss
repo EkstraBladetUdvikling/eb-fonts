@@ -1,0 +1,27 @@
+$articleSizeMap: (
+  'ads': $eb-fs-xxsmall,
+  'timestamp': $eb-fs-xsmall,
+  'caption': $eb-fs-small,
+  'showmore': $eb-fs-medium,
+  'bodytext': $eb-fs-large,
+  'subtitle': $eb-fs-xlarge,
+  'quote': $eb-fs-xxlarge,
+  'title': $eb-fs-xxxlarge
+);
+
+@if ($eb-fonts-cssvars == true) {
+  :root {
+    @each $key, $value in $articleSizeMap {
+      --fs-#{$key}: #{$value};
+    }
+  }
+}
+
+@if ($eb-fonts-classes == true) {
+  @each $key, $value in $articleSizeMap {
+    .fs-#{$key} {
+      font-size: #{$value};
+      line-height: normal;
+    }
+  }
+}

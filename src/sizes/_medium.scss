@@ -18,7 +18,7 @@ $eb-fs-medium: eb-device-get($eb-fonts-medium, 'medium');
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-medium: $eb-fs-medium;
+      --fs-medium: #{$eb-fs-medium};
   }
 }
 

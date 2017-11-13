@@ -18,7 +18,7 @@ $eb-fs-xxsmall: eb-device-get($eb-fonts-xxsmall, 'xxsmall');
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-xxsmall: $eb-fs-xxsmall;
+      --fs-xxsmall: #{$eb-fs-xxsmall};
   }
 }
 

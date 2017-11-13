@@ -4,7 +4,7 @@ $eb-fs-caption: $eb-fs-small;
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-caption: $eb-fs-caption;
+      --fs-caption: #{$eb-fs-caption};
   }
 }
 

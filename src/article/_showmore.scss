@@ -4,7 +4,7 @@ $eb-fs-showmore: $eb-fs-medium;
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-showmore: $eb-fs-showmore;
+      --fs-showmore: #{$eb-fs-showmore};
   }
 }
 

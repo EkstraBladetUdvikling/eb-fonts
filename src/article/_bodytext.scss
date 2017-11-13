@@ -4,7 +4,7 @@ $eb-fs-bodytext: $eb-fs-large;
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-bodytext: $eb-fs-bodytext;
+      --fs-bodytext: #{$eb-fs-bodytext};
   }
 }
 

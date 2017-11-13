@@ -17,7 +17,7 @@ $eb-fs-xlarge: eb-device-get($eb-fonts-xlarge, 'xlarge');
 
 @if ($eb-fonts-cssvars == true) {
     :root {
-      --fs-xlarge: $eb-fs-xlarge;
+      --fs-xlarge: #{$eb-fs-xlarge};
   }
 }
 
