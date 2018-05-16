@@ -1,5 +1,5 @@
 {
-  "name": "eb-fonts",
+  "name": "@ekstra-bladet/eb-fonts",
   "version": "1.0.6",
   "description": "EB fonts for SCSS and CSS",
   "scripts": {
