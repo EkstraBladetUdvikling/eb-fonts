@@ -1,9 +1,0 @@
-@if ($eb-fonts-titillium == true) {
-  @import url(//fonts.googleapis.com/css?family=Titillium+Web:400,700&subset=latin,latin-ext);
-
-  html {
-    font-family: "Titillium Web", Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
-  }
-}
