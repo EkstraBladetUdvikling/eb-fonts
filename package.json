@@ -1,22 +1,19 @@
 {
   "name": "@ekstra-bladet/eb-fonts",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "EB fonts for SCSS and CSS",
   "scripts": {
     "dist": "npm run lint && npm run desktop && npm run smartphone && npm run tablet",
     "lint": "stylelint src/*.scss --syntax=scss",
-    "desktop": "npm run desktop-classes && npm run desktop-cssvars && npm run desktop-titillium",
-    "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --sourcemap=none -t compressed",
-    "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --sourcemap=none -t compressed",
-    "desktop-titillium": "sass src/all-titillium-desktop.scss dist/eb-titillium-desktop.css --sourcemap=none -t compressed",
-    "smartphone": "npm run smartphone-classes && npm run smartphone-cssvars && npm run smartphone-titillium",
-    "smartphone-classes": "sass src/all-smartphone.scss dist/eb-fonts-smartphone.css --sourcemap=none -t compressed",
-    "smartphone-cssvars": "sass src/all-cssvars-smartphone.scss dist/eb-fontvars-smartphone.css --sourcemap=none -t compressed",
-    "smartphone-titillium": "sass src/all-titillium-smartphone.scss dist/eb-titillium-smartphone.css --sourcemap=none -t compressed",
-    "tablet": "npm run tablet-classes && npm run tablet-cssvars && npm run tablet-titillium",
-    "tablet-classes": "sass src/all-tablet.scss dist/eb-fonts-tablet.css --sourcemap=none -t compressed",
-    "tablet-cssvars": "sass src/all-cssvars-tablet.scss dist/eb-fontvars-tablet.css --sourcemap=none -t compressed",
-    "tablet-titillium": "sass src/all-titillium-tablet.scss dist/eb-titillium-tablet.css --sourcemap=none -t compressed"
+    "desktop": "npm run desktop-classes && npm run desktop-cssvars",
+    "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --no-source-map --style=compressed",
+    "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --no-source-map --style=compressed",
+    "smartphone": "npm run smartphone-classes && npm run smartphone-cssvars",
+    "smartphone-classes": "sass src/all-smartphone.scss dist/eb-fonts-smartphone.css --no-source-map --style=compressed",
+    "smartphone-cssvars": "sass src/all-cssvars-smartphone.scss dist/eb-fontvars-smartphone.css --no-source-map --style=compressed",
+    "tablet": "npm run tablet-classes && npm run tablet-cssvars",
+    "tablet-classes": "sass src/all-tablet.scss dist/eb-fonts-tablet.css --no-source-map --style=compressed",
+    "tablet-cssvars": "sass src/all-cssvars-tablet.scss dist/eb-fontvars-tablet.css --no-source-map --style=compressed"
   },
   "repository": {
     "type": "git",

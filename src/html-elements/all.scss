@@ -1,13 +1,10 @@
 // $eb-fonts-cssvars: false;
 // $eb-fonts-classes: false;
 
-@import "../functions/all";
-@import "../sizes/all";
+@import '../functions/all';
+@import '../sizes/all';
 
 @if ($eb-fonts-classes == true) {
-  body {
-      font-size: $eb-fs-medium;
-  }
 
   h1 {
       font-size: $eb-fs-xxxlarge;
