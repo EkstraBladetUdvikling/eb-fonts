@@ -3,8 +3,7 @@
   "version": "1.1.0",
   "description": "EB fonts for SCSS and CSS",
   "scripts": {
-    "dist": "npm run lint && npm run desktop && npm run smartphone && npm run tablet",
-    "lint": "stylelint src/*.scss --syntax=scss",
+    "dist": "npm run desktop && npm run smartphone && npm run tablet",
     "desktop": "npm run desktop-classes && npm run desktop-cssvars",
     "desktop-classes": "sass src/all-desktop.scss dist/eb-fonts-desktop.css --no-source-map --style=compressed",
     "desktop-cssvars": "sass src/all-cssvars-desktop.scss dist/eb-fontvars-desktop.css --no-source-map --style=compressed",
@@ -25,11 +24,5 @@
     "url": "https://github.com/ebudvikling/eb-fonts/issues"
   },
   "homepage": "https://github.com/ebudvikling/eb-fonts#readme",
-  "devDependencies": {
-    "stylelint": "^7.6.0",
-    "stylelint-config-eb": "^1.0.11"
-  },
-  "stylelint": {
-    "extends": "stylelint-config-eb"
-  }
+  "devDependencies": {}
 }
