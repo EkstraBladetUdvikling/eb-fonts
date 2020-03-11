@@ -1,6 +1,6 @@
 {
   "name": "@ekstra-bladet/eb-fonts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "EB fonts for SCSS and CSS",
   "scripts": {
     "dist": "npm run desktop && npm run smartphone && npm run tablet",
